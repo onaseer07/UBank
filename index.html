@@ -33,9 +33,32 @@
         <section class="container-fluid">
             <div class="row">
                 <questions class="col-lg-4">
-                    <div id="questions">
+                    <p id="questions">
                         Business Information
-                    </div>
+                        <div class="container">
+                        <div class="row">
+                        <div class="col-lg-12">
+                            <form class="form-inline p-1">
+                               What is your role in the business?
+                                <select class="m-3">
+                                    <option value="Owner">Owner</option>
+                                    <option value="Manager">Manager</option>
+                                    <option value="Admin">Admin</option>
+                                    <option value="Secretary">Secretary</option>
+                                </select><br>
+                                Number of employees (including you) 
+                                <input type="number" class="form-control m-3" id="q1">
+                                Number of business checking accounts? 
+                                <input type="number" class="form-control m-3" id="q2">
+                                Estimated total balance of all you business deposit accounts? <span>i</span>
+                                <input type="currency" class="form-control m-3" id="q3">
+
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                        </div>
+                        </div>
+                    </p>
                 </questions>
                 <div class="col-lg-4"></div>
                 <slogan class="col-lg-4 bg-blue text-white">
@@ -49,13 +72,15 @@
                         </slogan-text>
                         <div class="col-lg-2"></div>
                     </div>
-
                 </slogan>
             </div>
         </section>
+        <section class="container-fluid">
+            
+        </section>
     </main>
 
-    <footer class="bg-blue text-white">
+    <footer class="fixed-bottom bg-blue text-white">
         <h4 class="display-4 p-2">Getting to know your business</h4>
     </footer>
 <!-- custom js -->

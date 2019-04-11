@@ -14,5 +14,8 @@
       color:#ffff;
   }
   .text-blue {
-      color: var(--blue)
+      color: var(--blue);
+  }
+  html,body {
+      height: 100%;
   }
