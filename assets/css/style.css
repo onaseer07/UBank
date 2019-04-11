@@ -1,0 +1,12 @@
+:root {
+    --blue: #16487e;
+    --orange: #F07824;  
+  }
+
+  .blue-bg {
+      background: var(--blue);
+  } 
+
+  .orange-bg {
+    background: var(--orange);
+  }
