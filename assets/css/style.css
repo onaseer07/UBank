@@ -3,10 +3,16 @@
     --orange: #F07824;  
   }
 
-  .blue-bg {
+  .bg-blue {
       background: var(--blue);
   } 
 
-  .orange-bg {
-    background: var(--orange);
+  .bg-orange {
+      background: var(--orange);
+  }
+  .text-white {
+      color:#ffff;
+  }
+  .text-blue {
+      color: var(--blue)
   }

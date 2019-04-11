@@ -18,23 +18,45 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-    <header class="parent container-fluid">
+    <header class="container-fluid">
         <div class="row">
             <logo class="col-lg-4">
                 <img src="assets/images/UbankOG.png" class="img-fluid" alt="UBank">
             </logo>
             <div class="col-lg-4"></div>
-            <slogan class="slogan col-lg-4 d-flex justify-content-center align-items-end">
-                <iframe class="embed-responsive-item" src="slogan.html"></iframe>
-            </slogan>  
+            <solgan-pie class="col-lg-4 d-flex justify-content-center align-items-end bg-blue">
+                <img src="assets/images/slogan.png" class="img-fluid" alt="UBank">
+            </slogan-pie>  
         </div>
     </header>
     <main>
+        <section class="container-fluid">
+            <div class="row">
+                <questions class="col-lg-4">
+                    <div id="questions">
+                        Business Information
+                    </div>
+                </questions>
+                <div class="col-lg-4"></div>
+                <slogan class="col-lg-4 bg-blue text-white">
+                    <div class="row pt-5">
+                        <div class="col-lg-2"></div>
+                        <slogan-text class="col-lg-8 text-right">
+                            <p class="text-right">
+                                Keeping you <br>focused on your<br> business and not <br>on banking tasks is<br> what
+                                Ubank is here<br> to do.
+                            </p>
+                        </slogan-text>
+                        <div class="col-lg-2"></div>
+                    </div>
 
+                </slogan>
+            </div>
+        </section>
     </main>
 
-    <footer>
-
+    <footer class="bg-blue text-white">
+        <h4 class="display-4 p-2">Getting to know your business</h4>
     </footer>
 <!-- custom js -->
     <script src="assets/js/main.js"></script>
