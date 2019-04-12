@@ -36,55 +36,70 @@
         <section class="container-fluid">
             <div class="row">
                 <questions class="col-lg-4">
-                    <p id="business-information">
+                    <div id="business-information">
                         <h4 class="text-blue">Business Information</h4>
                         <div class="container">
                         <div class="row">
                         <div class="col-lg-12">
-                            <!-- <form class="form-inline p-1">
-                               What is your role in the business?
-                                <select class="m-3">
+                            <form role="form" class="form-inline text-blue">
+                            <div class="form-group">
+                                <label for="business-role">What is your role in the business?</label>
+                                <select class="m-2">
                                     <option value="Owner">Owner</option>
                                     <option value="Manager">Manager</option>
                                     <option value="Admin">Admin</option>
                                     <option value="Secretary">Secretary</option>
                                 </select><br>
-                                Number of employees (including you) 
-                                <input type="number" class="form-control m-3" id="q1">
-                                Number of business checking accounts? 
-                                <input type="number" class="form-control m-3" id="q2">
-                                Estimated total balance of all you business deposit accounts? <i class="fas fa-info-circle"></i>
-                                <input type="currency" class="form-control" id="q3">
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                            </form> -->
-
+                            </div>
+                            <div class="form-group">
+                                <label for="business-employees">Number of employees (including you)</label> 
+                                <input type="number" class="form-control m-2" id="business-employees" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="business-accounts">Number of business checking accounts?</label>
+                                <input type="number" class="form-control m-2" id="business-accounts" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="total-balance">Estimated total balance of all you business deposit accounts? <i class="fas fa-info-circle m-1"></i></label>
+                                <input type="text" class="form-control m-2" id="total-balance" placeholder="$" required>
+                            </div>
+                            </form>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div id="business-expenses">
+                        <h5 class="text-blue">Understanding How Your Business Pays Vendors and Suppliers</h5>
+                        <div class="container">
+                        <div class="row">
+                        <div class="col-lg-12">
                             <form role="form" class="form-inline text-blue">
-                                <div class="form-group">
-                                  <label for="business-role">What is your role in the business?</label>
-                                  <select class="m-2">
-                                      <option value="Owner">Owner</option>
-                                      <option value="Manager">Manager</option>
-                                      <option value="Admin">Admin</option>
-                                      <option value="Secretary">Secretary</option>
-                                  </select><br>
-                                </div>
-                                <div class="form-group">
-                                  <label for="business-employees">Number of employees (including you)</label> 
-                                  <input type="number" class="form-control m-2" id="franEmail" required>
-                                </div>
-                                <div class="form-group">
-                                  <label for="business-accounts">Number of business checking accounts?</label>
-                                  <input type="number" class="form-control m-2" id="franTelInput" required>
-                                </div>
-                                <div class="form-group">
-                                  <label for="total-balance">Estimated total balance of all you business deposit accounts? <i class="fas fa-info-circle m-1"></i></label>
-                                  <input type="number" class="form-control m-2" id="total-balance" placeholder="$" required>
-                                </div>
-                              </form>
+                            <div class="form-group">
+                                <label for="business-role">What are the monthly expenses for your business?</label>
+                                <input type="number" class="form-control m-2" id="monthly-expenses" required>
+                            </div>
+                            How many of the following do you have each month?
+                            <div class="form-group">
+                                <label for="business-employees">                                Checks Written</label> 
+                                <input type="number" class="form-control m-2" id="checks-written" required>
+                            </div><br>
+                            <div class="form-group">
+                                <label for="business-accounts">Bills Paid Online</label>
+                                <input type="number" class="form-control m-2" id="online-bills" required>
+                            </div><br>
+                            <div class="form-group">
+                                <label for="total-balance">ePayments (ACH)</label>
+                                <input type="number" class="form-control m-2" id="epayments" required>
+                            </div><br>
+                            <div class="form-group">
+                                <label for="total-balance">Wire Transfers</label>
+                                <input type="number" class="form-control m-2" id="wire-transfers" required>
+                            </div><br>
+                            </form>
                         </div>
                         </div>
                         </div>
-                    </p>
+                    </div>
                 </questions>
                 <div class="col-lg-4"></div>
                 <slogan class="col-lg-4 bg-blue text-white">
@@ -107,14 +122,14 @@
                     <i class="fas fa-arrow-circle-left"></i> back
                 </back-button>
                 <next-button class="col-lg-4 text-blue d-flex justify-content-center align-items-end">
-                    next <i class="fas fa-chevron-circle-right"></i>
+                    <div>next <i class="fas fa-chevron-circle-right"></i></div>
                 </next-button>
                 <empty class="col-lg-4 bg-blue"></empty>
             </controllers>
         </section>
     </main>
 
-    <footer class="bg-blue text-white">
+    <footer class=" bg-blue text-white">
         <h4 class="display-4 p-2">Getting to know your business</h4>
     </footer>
 <!-- custom js -->

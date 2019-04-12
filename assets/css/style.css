@@ -1,6 +1,9 @@
 html,body {
     height: 100%;
 }
+.resize-input {
+    width: 5rem !important;
+}
 :root {
     --blue: #16487e;
     --orange: #F07824;  
@@ -20,4 +23,12 @@ html,body {
   }
   .text-orange {
       color: var(--orange);
+  }
+  #business-expenses {
+      visibility: visible;
+      display: block;
+  }
+  #business-information {
+      visibility: hidden;
+      display: none;
   }
