@@ -13,7 +13,10 @@
         crossorigin="anonymous">
     <!-- custom css -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
-
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" 
+    crossorigin="anonymous">
     <!-- jQuery config -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
@@ -33,12 +36,12 @@
         <section class="container-fluid">
             <div class="row">
                 <questions class="col-lg-4">
-                    <p id="questions">
-                        Business Information
+                    <p id="business-information">
+                        <h4 class="text-blue">Business Information</h4>
                         <div class="container">
                         <div class="row">
                         <div class="col-lg-12">
-                            <form class="form-inline p-1">
+                            <!-- <form class="form-inline p-1">
                                What is your role in the business?
                                 <select class="m-3">
                                     <option value="Owner">Owner</option>
@@ -50,11 +53,34 @@
                                 <input type="number" class="form-control m-3" id="q1">
                                 Number of business checking accounts? 
                                 <input type="number" class="form-control m-3" id="q2">
-                                Estimated total balance of all you business deposit accounts? <span>i</span>
-                                <input type="currency" class="form-control m-3" id="q3">
-
+                                Estimated total balance of all you business deposit accounts? <i class="fas fa-info-circle"></i>
+                                <input type="currency" class="form-control" id="q3">
                                 <button type="submit" class="btn btn-primary">Submit</button>
-                            </form>
+                            </form> -->
+
+                            <form role="form" class="form-inline text-blue">
+                                <div class="form-group">
+                                  <label for="business-role">What is your role in the business?</label>
+                                  <select class="m-2">
+                                      <option value="Owner">Owner</option>
+                                      <option value="Manager">Manager</option>
+                                      <option value="Admin">Admin</option>
+                                      <option value="Secretary">Secretary</option>
+                                  </select><br>
+                                </div>
+                                <div class="form-group">
+                                  <label for="business-employees">Number of employees (including you)</label> 
+                                  <input type="number" class="form-control m-2" id="franEmail" required>
+                                </div>
+                                <div class="form-group">
+                                  <label for="business-accounts">Number of business checking accounts?</label>
+                                  <input type="number" class="form-control m-2" id="franTelInput" required>
+                                </div>
+                                <div class="form-group">
+                                  <label for="total-balance">Estimated total balance of all you business deposit accounts? <i class="fas fa-info-circle m-1"></i></label>
+                                  <input type="number" class="form-control m-2" id="total-balance" placeholder="$" required>
+                                </div>
+                              </form>
                         </div>
                         </div>
                         </div>
@@ -76,11 +102,19 @@
             </div>
         </section>
         <section class="container-fluid">
-            
+            <controllers class="row">
+                <back-button class="col-lg-4 text-orange">
+                    <i class="fas fa-arrow-circle-left"></i> back
+                </back-button>
+                <next-button class="col-lg-4 text-blue d-flex justify-content-center align-items-end">
+                    next <i class="fas fa-chevron-circle-right"></i>
+                </next-button>
+                <empty class="col-lg-4 bg-blue"></empty>
+            </controllers>
         </section>
     </main>
 
-    <footer class="fixed-bottom bg-blue text-white">
+    <footer class="bg-blue text-white">
         <h4 class="display-4 p-2">Getting to know your business</h4>
     </footer>
 <!-- custom js -->

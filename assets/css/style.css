@@ -1,8 +1,10 @@
+html,body {
+    height: 100%;
+}
 :root {
     --blue: #16487e;
     --orange: #F07824;  
   }
-
   .bg-blue {
       background: var(--blue);
   } 
@@ -16,6 +18,6 @@
   .text-blue {
       color: var(--blue);
   }
-  html,body {
-      height: 100%;
+  .text-orange {
+      color: var(--orange);
   }
