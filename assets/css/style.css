@@ -24,6 +24,37 @@ html,body {
   .text-orange {
       color: var(--orange);
   }
+  .overlay {
+    /* background-color:#ffff;
+    width:100px;
+    height:100%;
+    border-top-right-radius:50%;
+    border-bottom-right-radius:0%;
+    position: relative;
+    left:44px;
+    bottom:14px;
+    z-index:9999; */
+    background-color: #ffff;
+    width: 37%;
+    height: 131%;
+    border-top-right-radius: 58%;
+    border-bottom-right-radius: 0%;
+    position: relative;
+    left: 143px;
+    top: 1px;
+    z-index: 9999;
+  }
+  .reverse-overlay {
+    background-color: #ffff;
+    width: 30%;
+    height: 1090%;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 58%;
+    position: relative;
+    left: -70px;
+    top: -238px;
+    z-index: 9999;
+  }
   #next, #back {
       cursor: pointer;
   }

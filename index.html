@@ -30,7 +30,9 @@
             <logo class="col-lg-4">
                 <img src="assets/images/UbankOG.png" class="img-fluid" alt="UBank">
             </logo>
-            <div class="col-lg-4"></div>
+            <empty class="col-lg-4 d-flex justify-content-end">
+                <div class="overlay"></div>
+            </empty>
             <solgan-pie class="col-lg-4 d-flex justify-content-center align-items-end bg-blue">
                 <img src="assets/images/slogan.png" class="img-fluid" alt="UBank">
             </slogan-pie>  
@@ -89,7 +91,7 @@
                             </div>
                             <div class="container">
                                 <div class="row">
-                                    <h6>How many of the following do you have each month?</h6>
+                                    How many of the following do you have each month?
                                     <div class="col-lg-12 d-flex justify-content-end">
                                         <div class="form-group">
                                             <label for="business-employees">Checks Written</label> 
@@ -123,7 +125,9 @@
                     </div>
                 </questions>
                 <!-- empty container -->
-                <empty class="col-lg-4"></empty>
+                <empty class="col-lg-4 d-flex justify-content-end">
+                    
+                </empty>
                 <!-- slogan text container -->
                 <slogan class="col-lg-4 bg-blue text-white">
                     <div class="row pt-5">
@@ -153,12 +157,12 @@
                 <next id="next" class="col-lg-4 text-blue d-flex justify-content-center align-items-end" data-question="one">
                     <div>next <i class="fas fa-chevron-circle-right"></i></div>
                 </next>
-                <empty class="col-lg-4 bg-blue"></empty>
+                <empty class="col-lg-4 bg-blue"> <div class="reverse-overlay"></div></empty>
             </controllers>
         </section>
     </main>
 
-    <footer class="fixed-bottom bg-blue text-white">
+    <footer class="bg-blue text-white">
         <h4 class="display-4 p-2">Getting to know your business</h4>
     </footer>
 <!-- custom js -->
