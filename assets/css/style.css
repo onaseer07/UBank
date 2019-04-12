@@ -24,11 +24,15 @@ html,body {
   .text-orange {
       color: var(--orange);
   }
-  #business-expenses {
-      visibility: visible;
-      display: block;
+  #next, #back {
+      cursor: pointer;
   }
   #business-information {
-      visibility: hidden;
-      display: none;
+      visibility: visible;
+      display: block;
+      
   }
+  #business-expenses {
+    visibility: hidden;
+    display: none;
+}
