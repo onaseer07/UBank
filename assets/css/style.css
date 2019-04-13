@@ -38,7 +38,7 @@ html,body {
     border-bottom-right-radius: 0%;
     position: relative;
     left: 20%;
-    top: 1px;
+    top: -312px;
     z-index: 9999;
   }
 /* bottom curved layout overlay */
@@ -77,7 +77,7 @@ html,body {
     .top-overlay {
         position: relative;
         left: 21%;
-        top: 1px;
+        top: -312px;
         z-index: 9999;
       }
   }
@@ -85,7 +85,7 @@ html,body {
     .top-overlay {
         position: relative;
         left: 22%;
-        top: 1px;
+        top: -312px;
         z-index: 9999;
       }
   }
@@ -93,15 +93,15 @@ html,body {
     .top-overlay {
         position: relative;
         left: 23.5%;
-        top: 1px;
+        top: -312px;
         z-index: 9999;
       }
   }
   @media screen and (min-width: 2000px) {
     .top-overlay {
         position: relative;
-        left: 28%;
-        top: 1px;
+        left: 23.5%;
+        top: -312px;
         z-index: 9999;
       }
   }

@@ -32,7 +32,7 @@
                 <img src="assets/images/UbankOG.png" class="img-fluid" alt="UBank">
             </logo>
             <empty class="col-lg-4 d-flex justify-content-end">
-                <div class="top-overlay"></div>
+                <!-- <div class="top-overlay"></div> -->
             </empty>
             <solgan-pie class="col-lg-4 d-flex justify-content-center align-items-end bg-blue">
                 <img src="assets/images/slogan.png" class="img-fluid" alt="UBank">
@@ -45,13 +45,16 @@
     <main>
         <section class="container-fluid">
             <div class="row">
-                <!-- business customer questionaire -->
+                <!-- questions begins -->
                 <questions class="col-lg-4 questions">
+
+                    <!-- first scene begins -->
                     <div id="business-information">
                         <h4 class="text-blue">Business Information</h4>
                         <div class="container">
                         <div class="row">
                         <div class="col-lg-12">
+                            <!-- form begins -->
                             <form role="form" class="form-inline text-blue">
                             <div class="form-group">
                                 <label for="business-role">What is your role in the business?</label>
@@ -75,16 +78,20 @@
                                 <input type="text" class="form-control m-2" id="total-balance" placeholder="$" required>
                             </div>
                             </form>
+                            <!-- form ends -->
                         </div>
                         </div>
                         </div>
                     </div>
-                    <!-- second question scene -->
+                    <!-- first scene ends -->
+
+                    <!-- second scene begins -->
                     <div id="business-expenses">
                         <h5 class="text-blue">Understanding How Your Business Pays Vendors and Suppliers</h5>
                         <div class="container">
                         <div class="row">
                         <div class="col-lg-12">
+                            <!-- form for business expenses -->
                             <form role="form" class="form-inline text-blue">
                             <div class="form-group">
                                 <label for="business-role">What are the monthly expenses for your business?</label>
@@ -120,14 +127,17 @@
                                 </div>
                             </div>
                             </form>
+                            <!-- form ends -->
                         </div>
                         </div>
                         </div>
                     </div>
+                    <!-- second scene ends -->
                 </questions>
+                <!-- end of questions -->
                 <!-- empty container -->
                 <empty class="col-lg-4 d-flex justify-content-end">
-                    
+                        <div class="top-overlay"></div>
                 </empty>
                 <!-- slogan text container -->
                 <slogan class="col-lg-4 bg-blue text-white">
@@ -162,7 +172,7 @@
             </controllers>
         </section>
     </main>
-
+    <!-- footer with blue bg -->
     <footer class="bg-blue text-white p-2">
         <h4 class="display-4 p-2">Getting to know your business</h4>
     </footer>
