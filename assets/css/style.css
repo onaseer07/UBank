@@ -25,6 +25,12 @@ html,body {
       color: var(--orange);
   }
   .overlay {
+      background: #ffff;
+      width: 100px;
+      height: 100%;
+      z-index: 9999;
+  }
+  .top-overlay {
     /* background-color:#ffff;
     width:100px;
     height:100%;
@@ -54,6 +60,12 @@ html,body {
     left: -70px;
     top: -238px;
     z-index: 9999;
+  }
+  .questions {
+      position: relative;
+      bottom: 50px;
+      left: 50px
+    
   }
   #next, #back {
       cursor: pointer;
