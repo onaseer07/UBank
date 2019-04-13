@@ -73,7 +73,7 @@ html,body {
     display: none;
   }
 
-  @media screen and (min-width: 1440px) {
+  /* @media screen and (min-width: 1440px) {
     .top-overlay {
         position: relative;
         left: 21%;
@@ -104,5 +104,5 @@ html,body {
         top: -312px;
         z-index: 9999;
       }
-  }
+  } */
 /* end of CSS */
