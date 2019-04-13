@@ -1,13 +1,17 @@
+/* setting html and body to 100% */
 html,body {
     height: 100%;
 }
-.resize-input {
+/* resize for small input */
+.small-input {
     width: 5rem !important;
 }
+/* changing the root blue and orange color to primary selected colors */
 :root {
     --blue: #16487e;
     --orange: #F07824;  
   }
+/* custom background color classes */
   .bg-blue {
       background: var(--blue);
   } 
@@ -15,6 +19,7 @@ html,body {
   .bg-orange {
       background: var(--orange);
   }
+/* custom text color classes */
   .text-white {
       color:#ffff;
   }
@@ -24,22 +29,8 @@ html,body {
   .text-orange {
       color: var(--orange);
   }
-  .overlay {
-      background: #ffff;
-      width: 100px;
-      height: 100%;
-      z-index: 9999;
-  }
+/* top curved layout overlay */
   .top-overlay {
-    /* background-color:#ffff;
-    width:100px;
-    height:100%;
-    border-top-right-radius:50%;
-    border-bottom-right-radius:0%;
-    position: relative;
-    left:44px;
-    bottom:14px;
-    z-index:9999; */
     background-color: #ffff;
     width: 30%;
     height: 131%;
@@ -50,6 +41,7 @@ html,body {
     top: 1px;
     z-index: 9999;
   }
+/* bottom curved layout overlay */
   .bottom-overlay {
     background-color: #ffff;
     width: 30%;
@@ -61,21 +53,23 @@ html,body {
     top: -238px;
     z-index: 9999;
   }
+/* questions positioning to eliminate excessive white space */
   .questions {
       position: relative;
       bottom: 50px;
       left: 50px
-    
   }
+/* controllers cursor change to pointers */
   #next, #back {
       cursor: pointer;
   }
+/* Animation default settings */
   #business-information {
       visibility: visible;
-      display: block;
-      
+      display: block;   
   }
   #business-expenses {
     visibility: hidden;
     display: none;
-}
+  }
+/* end of CSS */

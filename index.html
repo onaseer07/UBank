@@ -26,6 +26,7 @@
 <body>
     <!-- header contains UBank logo and slogan image -->
     <header class="container-fluid">
+        <!-- row to contain 3 columns for logo, top-overlay and solgan pie chart -->
         <div class="row">
             <logo class="col-lg-4">
                 <img src="assets/images/UbankOG.png" class="img-fluid" alt="UBank">
@@ -95,25 +96,25 @@
                                     <div class="col-lg-12 d-flex justify-content-end">
                                         <div class="form-group">
                                             <label for="business-employees">Checks Written</label> 
-                                            <input type="number" class="form-control m-2" id="checks-written" required>
+                                            <input type="number" class="form-control m-2 small-input" id="checks-written" required>
                                         </div><br>
                                     </div>
                                     <div class="col-lg-12 d-flex justify-content-end">
                                         <div class="form-group">
                                             <label for="business-accounts">Bills Paid Online</label>
-                                            <input type="number" class="form-control m-2" id="online-bills" required>
+                                            <input type="number" class="form-control m-2 small-input" id="online-bills" required>
                                         </div><br>
                                     </div>
                                     <div class="col-lg-12 d-flex justify-content-end">
                                         <div class="form-group">
                                             <label for="total-balance">ePayments (ACH)</label>
-                                            <input type="number" class="form-control m-2" id="epayments" required>
+                                            <input type="number" class="form-control m-2 small-input" id="epayments" required>
                                         </div><br>    
                                     </div>
                                     <div class="col-lg-12 d-flex justify-content-end">
                                         <div class="form-group">
                                             <label for="total-balance">Wire Transfers</label>
-                                            <input type="number" class="form-control m-2" id="wire-transfers" required>
+                                            <input type="number" class="form-control m-2 small-input" id="wire-transfers" required>
                                         </div><br>
                                     </div>
                                 </div>
@@ -150,11 +151,11 @@
         <section class="container-fluid">
             <controllers class="row">
                 <!-- animate to previous question -->
-                <back id="back" class="col-lg-4 text-orange" data-question="zero">
+                <back id="back" class="col-lg-4 text-orange" data-question="0">
                     <i class="fas fa-arrow-circle-left"></i> back
                 </back>
                 <!-- animate to next question -->
-                <next id="next" class="col-lg-4 text-blue d-flex justify-content-center align-items-end" data-question="one">
+                <next id="next" class="col-lg-4 text-blue d-flex justify-content-center align-items-end" data-question="1">
                     <div>next <i class="fas fa-chevron-circle-right"></i></div>
                 </next>
                 <empty class="col-lg-4 bg-blue"><div class="bottom-overlay"></div></empty>
