@@ -37,7 +37,7 @@ html,body {
     border-top-right-radius: 58%;
     border-bottom-right-radius: 0%;
     position: relative;
-    left: 143px;
+    left: 20%;
     top: 1px;
     z-index: 9999;
   }
@@ -71,5 +71,38 @@ html,body {
   #business-expenses {
     visibility: hidden;
     display: none;
+  }
+
+  @media screen and (min-width: 1440px) {
+    .top-overlay {
+        position: relative;
+        left: 21%;
+        top: 1px;
+        z-index: 9999;
+      }
+  }
+  @media screen and (min-width: 1600px) {
+    .top-overlay {
+        position: relative;
+        left: 22%;
+        top: 1px;
+        z-index: 9999;
+      }
+  }
+  @media screen and (min-width: 1920px) {
+    .top-overlay {
+        position: relative;
+        left: 23.5%;
+        top: 1px;
+        z-index: 9999;
+      }
+  }
+  @media screen and (min-width: 2000px) {
+    .top-overlay {
+        position: relative;
+        left: 28%;
+        top: 1px;
+        z-index: 9999;
+      }
   }
 /* end of CSS */
