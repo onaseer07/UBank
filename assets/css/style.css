@@ -41,7 +41,7 @@ html,body {
     bottom:14px;
     z-index:9999; */
     background-color: #ffff;
-    width: 37%;
+    width: 30%;
     height: 131%;
     border-top-right-radius: 58%;
     border-bottom-right-radius: 0%;
@@ -50,7 +50,7 @@ html,body {
     top: 1px;
     z-index: 9999;
   }
-  .reverse-overlay {
+  .bottom-overlay {
     background-color: #ffff;
     width: 30%;
     height: 1090%;
