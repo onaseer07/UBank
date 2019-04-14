@@ -19,7 +19,13 @@ html,body {
   .bg-orange {
       background: var(--orange);
   }
-/* custom text color classes */
+/* custom text color & weight classes */
+  .text-bold {
+      font-weight: 500;
+  }
+  .text-bolder {
+      font-weight: bold;
+  }
   .text-white {
       color:#ffff;
   }
@@ -36,9 +42,9 @@ html,body {
     height: 131%;
     border-top-right-radius: 58%;
     border-bottom-right-radius: 0%;
-    position: relative;
-    left: 23.5%;
-    top: -312px;
+    position: absolute;
+    left: 89.5%;
+    top: -303px;
     z-index: 9999;
   }
 /* bottom curved layout overlay */
@@ -48,8 +54,8 @@ html,body {
     height: 1090%;
     border-top-right-radius: 0%;
     border-bottom-right-radius: 58%;
-    position: relative;
-    left: -70px;
+    position: absolute;
+    left: -10.5%;
     top: -238px;
     z-index: 9999;
   }
