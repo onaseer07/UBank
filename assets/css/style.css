@@ -41,7 +41,6 @@ html,body {
     width: 30%;
     height: 131%;
     border-top-right-radius: 58%;
-    border-bottom-right-radius: 0%;
     position: absolute;
     left: 89.5%;
     top: -303px;
@@ -52,7 +51,6 @@ html,body {
     background-color: #ffff;
     width: 30%;
     height: 1090%;
-    border-top-right-radius: 0%;
     border-bottom-right-radius: 58%;
     position: absolute;
     left: -10.5%;
@@ -78,37 +76,4 @@ html,body {
     visibility: hidden;
     display: none;
   }
-
-  /* @media screen and (min-width: 1440px) {
-    .top-overlay {
-        position: relative;
-        left: 21%;
-        top: -312px;
-        z-index: 9999;
-      }
-  }
-  @media screen and (min-width: 1600px) {
-    .top-overlay {
-        position: relative;
-        left: 22%;
-        top: -312px;
-        z-index: 9999;
-      }
-  }
-  @media screen and (min-width: 1920px) {
-    .top-overlay {
-        position: relative;
-        left: 23.5%;
-        top: -312px;
-        z-index: 9999;
-      }
-  }
-  @media screen and (min-width: 2000px) {
-    .top-overlay {
-        position: relative;
-        left: 23.5%;
-        top: -312px;
-        z-index: 9999;
-      }
-  } */
 /* end of CSS */
